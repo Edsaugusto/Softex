@@ -1,0 +1,26 @@
+'function main(){
+    console.log('deve mostrar variaveis UNDEFINED');
+    var boolean1;
+    var bigint1;
+    var string1;
+    var symbol1;
+    console.log(`${boolean1}, ${bigint1}, ${string1}, ${symbol1} , estão UNDEFINED`);
+
+    console.log(`--------------------------------------------------------------------`);
+    console.log(`Agora elas devem mostrar valor Null`);
+    var boolean1 = null;
+    var bigint1 = null;
+    var string1 = null;
+    var symbol1 = null;
+    console.log(`${boolean1}, ${bigint1}, ${string1}, ${symbol1} , estão NULL`);
+
+    console.log(`--------------------------------------------------------------------`);
+    console.log(`Agora elas devem exibir seu proprio valor`);
+    var boolean1 = true;
+    var bigint1 = 155151654313;
+    var string1 = 'Edson Augusto';
+    // const symbol1 = Symbol();
+    // console.log(symbol1)
+    console.log(`${boolean1}, ${bigint1}, ${string1}, estão NULL`);
+}
+main();'
