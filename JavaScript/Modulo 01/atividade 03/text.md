@@ -1,4 +1,4 @@
-'''
+```
 
 function main(){
     console.log('deve mostrar variaveis UNDEFINED');
@@ -26,4 +26,4 @@ function main(){
     console.log(`${boolean1}, ${bigint1}, ${string1}, estão NULL`);
 }
 main();
-'''
+```
