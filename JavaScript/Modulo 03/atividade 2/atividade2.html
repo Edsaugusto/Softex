@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function main(){
+            let valor1 = Number(prompt(`valor 1`));
+            let valor2 = Number(prompt(`valor 2`));
+            let operation = prompt('subtracao ou adicao? + ou -')
+            
+            function sum(valor1, valor2){
+                let soma= valor1+valor2;
+                // const resultado = () => `o resultado da soma foi: ${sum}`;
+                // return resultado;
+                return soma;
+            }
+
+            const sub = (valor1, valor2) => valor1 - valor2;
+
+            function sumOrSub(operation){
+                if(operation == '+' || operation == 'adicao' ){
+                    return sum(valor1, valor2);
+                } else if(operation == '-' || operation == 'subtracao'){
+                    return sub(valor1, valor2);
+                }
+            }
+
+            console.log(`o resultado do calculo foi: ${sumOrSub(operation)}`);
+        }
+        main();
+    </script>
+</body>
+</html>
