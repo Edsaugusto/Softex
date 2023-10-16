@@ -8,11 +8,12 @@ Métodos: Ligarr(), Desligar(), Acelerar(valorAceleracao)
 
 
 ### Ar-condicionado
-Atributos: Marca, Modelo 
+Atributos: Marca, Modelo , cor
+
 Métodos: ligar(), desligar(), aumentarTemperatura(valor), diminuirTemperatura(valor) 
 
-## Objetos Abstratos: &nbsp
-###Casa &nbsp
+## Objetos Abstratos:
+### Casa
 Atributos: endereco, numeroDeQuartos, area 
 Métodos: ativarJardim(), ativarPiscina(), ativarGaragem();
 
