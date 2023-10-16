@@ -2,8 +2,10 @@
 ##Objetos Concretos: &nbsp
 
 ###Carro &nbsp
-Atributos: Marca,Modelo, Ano de fabricação &nbsp
-Métodos: Ligarr(), Desligar(), Acelerar(valorAceleracao) &nbsp
+Atributos: Marca,Modelo, Ano de fabricação 
+&nbsp;
+Métodos: Ligarr(), Desligar(), Acelerar(valorAceleracao) 
+&nbsp;
 
 ###Ar-condicionado
 Atributos: Marca, Modelo &nbsp
