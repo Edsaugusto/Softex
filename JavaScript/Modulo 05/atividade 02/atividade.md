@@ -1,24 +1,24 @@
 # RESPOSTA
-##Objetos Concretos:
+##Objetos Concretos: &nbsp
 
-###Carro
-Atributos: Marca,Modelo, Ano de fabricação
-Métodos: Ligarr(), Desligar(), Acelerar(valorAceleracao)
+###Carro &nbsp
+Atributos: Marca,Modelo, Ano de fabricação &nbsp
+Métodos: Ligarr(), Desligar(), Acelerar(valorAceleracao) &nbsp
 
 ###Ar-condicionado
-Atributos: Marca, Modelo
-Métodos: ligar(), desligar(), aumentarTemperatura(valor), diminuirTemperatura(valor)
+Atributos: Marca, Modelo &nbsp
+Métodos: ligar(), desligar(), aumentarTemperatura(valor), diminuirTemperatura(valor) &nbsp
 
-##Objetos Abstratos:
-###Casa
-Atributos: endereco, numeroDeQuartos, area
-Métodos: ativarJardim(), ativarPiscina(), ativarGaragem();
+##Objetos Abstratos: &nbsp
+###Casa &nbsp
+Atributos: endereco, numeroDeQuartos, area &nbsp
+Métodos: ativarJardim(), ativarPiscina(), ativarGaragem(); &nbsp
 
-###Figura Geometrica
-Atributos: Nome da figura, cor, area
-Métodos: calcularArea(), desenhar(), CalcularNumeroLados()
+###Figura Geometrica &nbsp
+Atributos: Nome da figura, cor, area &nbsp
+Métodos: calcularArea(), desenhar(), CalcularNumeroLados() &nbsp
 
-## CÓDIGO EM JS
+## CÓDIGO EM JS &nbsp
 
 ```JS
 function ArCondicionado(marca, modelo) {
