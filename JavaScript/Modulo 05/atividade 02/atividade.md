@@ -15,10 +15,12 @@ Métodos: ligar(), desligar(), aumentarTemperatura(valor), diminuirTemperatura(v
 ## Objetos Abstratos:
 ### Casa
 Atributos: endereco, numeroDeQuartos, area 
+
 Métodos: ativarJardim(), ativarPiscina(), ativarGaragem();
 
 ###  Figura Geometrica &nbsp
 Atributos: Nome da figura, cor, area
+
 Métodos: calcularArea(), desenhar(), CalcularNumeroLados() 
 
 ## CÓDIGO EM JS &nbsp
