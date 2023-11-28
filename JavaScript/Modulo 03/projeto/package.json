@@ -1,0 +1,22 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "projeot inicial teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edsaugusto/Softex.git"
+  },
+  "keywords": [
+    "projeto"
+  ],
+  "author": "edson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edsaugusto/Softex/issues"
+  },
+  "homepage": "https://github.com/Edsaugusto/Softex#readme"
+}
